@@ -1,4 +1,5 @@
-**Iris FLower Classification**/
+**Iris FLower Classification**
+
 Iris Classification uses the K-Nearest Neighbors (KNN) model in Machine Learning to classify Iris flowers into three species: Setosa, Versicolor, and Virginica, based on their sepal length, sepal width, petal length, and petal width.\
 The Iris dataset is loaded from Scikit-learn using the load_iris() function. It contains 150 samples, 4 input features, 3 target species, and 50 samples per species.\
 KNN classifies a new data point by finding the nearest data points and assigning it the class that is most common among them. In this project, K=5, which means the model considers the 5 nearest data points for making a prediction.\
